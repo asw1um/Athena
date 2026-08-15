@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-#include "tableGen.hpp" // or "SimpleTable.hpp"
+#include "tableGen.hpp" 
 
 class TableTest {
 public:
