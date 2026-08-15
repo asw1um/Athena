@@ -35,20 +35,20 @@ athena add <isbn> <title> <author> <price_dollars> <link> <category>
 ```
   athena edit, -ed, update <id> [flags]
                                     -i, --isbn <isbn>
-                                    -t, --title <title>\n"
-                                    -a, --author <author>\n"
-                                    -p, --price <price>\n"
-                                    -l, --link <link>\n"
-                                    -c, --category <category>\n"
+                                    -t, --title <title>
+                                    -a, --author <author>
+                                    -p, --price <price>
+                                    -l, --link <link>
+                                    -c, --category <category>
 ```
 ### Remove Listing
 ```
- athena -rm, delete -id <id>\n"
- athena -rm, delete -is <isbn>\n"
- athena -rm, delete -b <-a|-is|-t> <value>\n"
+ athena -rm, delete -id <id>
+ athena -rm, delete -is <isbn>
+ athena -rm, delete -b <-a|-is|-t> <value>
  ```
 ### View Listings
 ```
-  athena -ls, list, ls [-a <author> | -c <category> | -is <isbn>]\n";
+  athena -ls, list, ls [-a <author> | -c <category> | -is <isbn>]
   ```
 
