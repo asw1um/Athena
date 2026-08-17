@@ -42,6 +42,7 @@ int main(int argc, char* argv[]) {
     sqlite3* db = nullptr;
     if (sqlite3_open("library.db", &db) != SQLITE_OK) {
         std::cerr << "[DB Error] Failed to open database: " << sqlite3_errmsg(db) << "\n";
+        std::cerr<< "Double check if database is initalized";
         return EXIT_FAILURE;
     }
 

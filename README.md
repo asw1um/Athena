@@ -20,6 +20,23 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 The install will enable global access to the app for you to run it from any folder in the terminal.
 
+## Startup
+
+### Windows (powershell)
+Open your profile (notepad $PROFILE) and add:
+```
+. "C:\path\to\your\project\library-startup.ps1"
+```
+
+### Linux/Mac
+```bash
+chmod +x library-startup.sh
+```
+Add line below to bashrc or zshrc:
+```
+source /path/to/your/project/library-startup.sh
+```
+
 ## Commands
 
 ### Initialize database

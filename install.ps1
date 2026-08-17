@@ -43,6 +43,6 @@ Write-Host "`n==========================================" -ForegroundColor Cyan
 Write-Host "      INSTALLATION COMPLETE!              " -ForegroundColor Green
 Write-Host "==========================================" -ForegroundColor Cyan
 Write-Host "Restart your terminal, then run from ANY directory:"
-Write-Host "  athena -init" -ForegroundColor Yellow
+Write-Host "  athena -init (this part can be neglected if startup terminal display is enabled before running)" -ForegroundColor Yellow
 Write-Host "  athena -ls" -ForegroundColor Yellow
 Write-Host "  athena add <isbn> <title> <author> <price> <link> <category>" -ForegroundColor Yellow
