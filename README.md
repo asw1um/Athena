@@ -15,11 +15,13 @@ chmod +x install.sh
 ```
 
 ### Windows (powershell)
+```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\install.ps1
+```
 
 The install will enable global access to the app for you to run it from any folder in the terminal.
-
+---
 ## Startup
 
 ### Windows (powershell)
@@ -36,7 +38,7 @@ Add line below to bashrc or zshrc:
 ```
 source /path/to/your/project/library-startup.sh
 ```
-
+---
 ## Commands
 
 ### Initialize database
