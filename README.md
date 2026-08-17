@@ -22,7 +22,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 The install will enable global access to the app for you to run it from any folder in the terminal.
 ---
-## Startup
+## Startup (Untested)
 
 ### Windows (powershell)
 Open your profile (notepad $PROFILE) and add:
